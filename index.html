@@ -1,29 +1,243 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prashant | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Welcome to My Portfolio</h1>
+    <!-- ===== NAVBAR ===== -->
 
-    <h2>About Me</h2>
-    <p>Hello! My name is Prashant. I am learning Java, DSA, HTML and CSS.</p>
+    <header>
+        <nav class="navbar">
 
-    <h2>My Skills</h2>
-    <ul>
-        <li>Java</li>
-        <li>DSA</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
+            <div class="logo">
+                Prashant<span>.</span>
+            </div>
 
-    <h2>My Projects</h2>
-    <p>Portfolio Website</p>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-    <h2>Contact</h2>
-    <p>Email: Your Email</p>
+        </nav>
+    </header>
+
+
+    <!-- ===== HOME ===== -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-text">HELLO, I'M</p>
+
+            <h1>Prashant <span>Chaudhary</span></h1>
+
+            <h2>Java & DSA Learner | Web Developer</h2>
+
+            <p>
+                I am a B.Tech student passionate about Java,
+                Data Structures, Algorithms and Web Development.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn second-btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="code-box">
+
+                <p>&lt;developer&gt;</p>
+
+                <h3>Java</h3>
+                <h3>DSA</h3>
+                <h3>HTML</h3>
+                <h3>CSS</h3>
+
+                <p>&lt;/developer&gt;</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===== ABOUT ===== -->
+
+    <section id="about" class="section">
+
+        <p class="section-title">ABOUT ME</p>
+
+        <h2>Who I Am</h2>
+
+        <p class="about-text">
+            Hello! My name is Prashant Chaudhary.
+            I am a B.Tech student and a beginner developer
+            currently learning Java, DSA, HTML and CSS.
+
+            My goal is to improve my problem-solving skills
+            and build useful real-world projects.
+        </p>
+
+    </section>
+
+
+    <!-- ===== SKILLS ===== -->
+
+    <section id="skills" class="section">
+
+        <p class="section-title">MY SKILLS</p>
+
+        <h2>Technologies I Know</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>☕ Java</h3>
+                <p>Core Java & Problem Solving</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>🧠 DSA</h3>
+                <p>Arrays, Recursion, Sorting & Searching</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>🌐 HTML</h3>
+                <p>Website Structure & Semantic HTML</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>🎨 CSS</h3>
+                <p>Responsive & Modern Web Design</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===== PROJECTS ===== -->
+
+    <section id="projects" class="section">
+
+        <p class="section-title">MY WORK</p>
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>💻 Portfolio Website</h3>
+
+                <p>
+                    A personal portfolio website created
+                    using HTML and CSS.
+                </p>
+
+                <span>HTML</span>
+                <span>CSS</span>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>🧠 Java DSA Problems</h3>
+
+                <p>
+                    Collection of Java programs and
+                    Data Structures & Algorithms problems.
+                </p>
+
+                <span>Java</span>
+                <span>DSA</span>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>🚀 Future Project</h3>
+
+                <p>
+                    More exciting projects will be added
+                    as I continue learning.
+                </p>
+
+                <span>Coming Soon</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===== CONTACT ===== -->
+
+    <section id="contact" class="section contact">
+
+        <p class="section-title">CONTACT</p>
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            Interested in working together or discussing
+            technology? Feel free to connect with me.
+        </p>
+
+        <div class="contact-buttons">
+
+            <a href="mailto:yourmail@gmail.com" class="btn">
+                📧 Email Me
+            </a>
+
+            <a href="https://github.com/pras131096"
+               target="_blank"
+               class="btn second-btn">
+                GitHub
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+
+    <footer>
+
+        <p>
+            © 2026 Prashant Chaudhary | Built with HTML & CSS
+        </p>
+
+    </footer>
 
 </body>
+
 </html>
